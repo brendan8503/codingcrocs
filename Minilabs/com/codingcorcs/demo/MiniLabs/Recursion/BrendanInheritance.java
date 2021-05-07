@@ -1,7 +1,6 @@
 package com.codingcorcs.demo.MiniLabs.Recursion;
 
-public class inheritance {
-}
+
 class Teacher {
     String designation = "Professor";
     String collegeName = "lecture hall";
@@ -10,7 +9,7 @@ class Teacher {
     }
 }
 
- class PhysicsTeacher extends Teacher{
+  class PhysicsTeacher extends Teacher{
     String mainSubject = "Calculus";
     public static void main(String args[]){
         PhysicsTeacher obj = new PhysicsTeacher();
