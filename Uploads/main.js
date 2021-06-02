@@ -40,4 +40,4 @@ function dragLeave() {
 function dragDrop() {
   this.className = 'empty';
   this.append(fill);
-}
+}}
